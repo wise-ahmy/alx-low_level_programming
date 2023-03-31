@@ -6,7 +6,7 @@
  * @dest: input value
  * @src: input value
  * @n: input value
- * Retour: dest
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
