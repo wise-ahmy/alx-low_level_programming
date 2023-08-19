@@ -1,4 +1,4 @@
-#include "FUNCTION_POINTERS_H"
+#include "function_pointers.h"
 #include <stdio.h>
 /**
  * int_index - return index place if comparison = true, else -1
