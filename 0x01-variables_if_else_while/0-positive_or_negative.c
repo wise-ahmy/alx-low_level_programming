@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** main - main function to generate random a number
+
+/**
+ * main - main function to generate random a number
  *
  *Return: Always 0 (success)
  *
@@ -21,7 +23,7 @@ int main(void)
 	{
 		printf("%d is %s\n", n, "positive");
 	}
-	else 
+	else
 	{
 		printf("%d is %s\n", n, "zero");
 	}
