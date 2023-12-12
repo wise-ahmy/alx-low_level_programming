@@ -4,23 +4,24 @@
 /**
  * main - Entry point
  *
- * Return Always (0) success
+ * Return: Always (0) success
  */
-int main (void)
+int main(void)
 {
-        int lowerCase = 'a';
-        while (lowerCase <= 'z')
+	int lowerCase = 'a';
+
+	while (lowerCase <= 'z')
 	{
 		if (lowerCase == 'e' || lowerCase == 'q')
 	{
-		lowerCase += 1; 
+		lowerCase += 1;
 	}
 		else
-        {
-                putchar(lowerCase);
-                lowerCase += 1;
-        }
+	{
+		putchar(lowerCase);
+		lowerCase += 1;
 	}
-        putchar('\n');
-        return (0);
+	}
+	putchar('\n');
+	return (0);
 }
